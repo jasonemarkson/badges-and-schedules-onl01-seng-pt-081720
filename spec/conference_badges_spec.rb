@@ -132,6 +132,7 @@ def assign_rooms (speakers_array)
 end   
 
 def printer(attendees)
+<<<<<<< HEAD
     batch_badge_creator(attendees)
       badges.each do |line|
         puts line
@@ -140,3 +141,9 @@ def printer(attendees)
         puts line
       end
     end
+=======
+  puts badges + room_assignments
+  gets.chomp
+
+end
+>>>>>>> 413c7ec726e61f964a0438152720216892e638e3
